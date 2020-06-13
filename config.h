@@ -19,7 +19,7 @@ static const char col_white[] = "#fefefe";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_white, col_gray,  col_black },
-	[SchemeSel]  = { col_white, col_gray,  col_blue  },
+	[SchemeSel]  = { col_white, col_blue,  col_blue  },
 };
 
 /* tagging */
