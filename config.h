@@ -17,9 +17,14 @@ static const char col_black[] = "#000000";
 static const char col_white[] = "#fefefe";
 
 static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_white, col_gray,  col_black },
-	[SchemeSel]  = { col_white, col_blue,  col_blue  },
+	/*                    fg         bg      border   */
+	[SchemeNorm]      = { col_white, col_gray, col_black },
+    [SchemeSel]       = { col_white, col_gray, col_blue  },
+    [SchemeStatus]    = { col_white, col_gray, col_black },	// border unused (cannot be null)
+    [SchemeTagsSel]   = { col_white, col_blue, col_black }, // border unused (cannot be null)
+    [SchemeTagsNorm]  = { col_white, col_gray, col_black }, // border unused (cannot be null)
+    [SchemeInfoSel]   = { col_white, col_gray, col_black }, // border unused (cannot be null)
+    [SchemeInfoNorm]  = { col_white, col_gray, col_black }, // border unused (cannot be null)
 };
 
 /* tagging */
