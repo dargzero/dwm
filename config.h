@@ -37,7 +37,8 @@ static const Rule rules[] = {
 	 */
 	/* class        instance  title               tags mask  isfloating  isterminal  noswallow  monitor */
 	{ NULL,         NULL,     "Android Emulator", 0,         1,          0,           0,        -1 },
-	{ "alacritty",  NULL,     NULL,               0,         0,          1,          -1,        -1 },
+	{ "alacritty",  NULL,     NULL,               0,         0,          1,           0,        -1 },
+	{ "mpv",        NULL,     NULL,               0,         1,          0,           0,        -1 },
 	{ NULL,         NULL,     "Event Tester",     0,         1,          0,           1,        -1 }, 
 };
 
