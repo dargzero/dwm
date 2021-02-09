@@ -10,7 +10,8 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { 
 	"Noto Sans Display:size=11",
-	"FontAwesome:size=11"
+	"Font Awesome 5 Free:size=11",
+	"Font Awesome 5 Brands:size=11"
 };
 static const char dmenufont[]       = "Noto Sans Display:size=11";
 
